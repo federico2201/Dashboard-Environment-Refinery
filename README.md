@@ -1,6 +1,19 @@
-# my first repo
+This project is about the management of environmental aspects in an oil refinery.
 
-In this repo you will find the following visualization projects:
-  1. Olympic Games
-  2. Environment Management in a Refinery
+Yes! Oil refineries DO have very strong environmental policies in place. Efficient facilities (environment-wise) are able to offset much of their carbon footprint through the proper management of streams and passives, and data visualization comes in as a very handy tool to keep track of key variables and make proper decisions.
 
+Information flows fromm a series of Excel files scattered in the department's cloud to the main file ("Tabla Maestra") through VBA-Macro scripts, and then it is extracted by Power BI and modified to suit our needs. All sensible data has been encrypted!
+
+The dashboard allows for a clear, easy interpretation of plots and graphs, and includes several filter options in each of its different subjects. Surfing between tabs is made easy by the Navigation button.
+
+This visualization project in Power BI analyzes the following key aspects of environmental management in the refinery:
+  1. POAM, which stands for "Plan Anual de Objetivos de Medio Ambiente", or "Anual Plan of Environmental Objectives", which keeps track of anual objectives status (tab 2). 
+  2. Solid Waste Management (Gestión de Residuos, tab 3). A chronological summary of type and mass (in tons) of all solid and semi-solid waste that leaves the facilities.
+  3. Recycling Management (Gestión de Reciclaje, tab 4). Certain types of solid waste are sold to external contractors for recycling. This tab gives detail of the type and amount of exported waste and the income it represents.
+  4. Exported Catalyst (Venta de Catalizador, tab 5). Exhausted catalyst employed in certain facilities to break down hidrocarbon molecules is sold to a third party to be used as raw material for cement kilns. A great example of circular economy, this operation is kept up to date in this tab, wich summarizes profits, losses and mass flow over the years.
+  5. Air Pollution (Contaminación de Aire, tab 6). This tab sums up the air pollution events; that is, the amount of times the complex as a whole failed to comply with maximum emission legislation, for different gases and for whatever reason. These events are classified by origin, declared cause and gaseous emission.
+  6. Continuous Analyzers (Analizadores Continuos, tab 7). This tab goes a step deeper in the subject of air pollution; in fact, the Air Pollution tab is but a summary of what continuous analyzers feed to the cloud. Small devices located in chimneys and pipes, they measure in an hourly basis the composition of exhaust gases, making possible the plotting of very descriptive graphs. The tab also provides analytics for each gas and facility.
+  7. Noise Monitoring (Labex - Ruidos, tab 8). History determined this refinery to be in the middle of quite an important urban sprawl, hence noise is an key topic when dealing with neighbouring communities. An third party (Labex stands for "Laboratorio Externo", or "External Lab") is contracted to periodically measure noise in the vicinity, and the information they get is poured in this tab.
+  8. Effluent Monitoring (Labex - EL, tab 9). A third party (Labex stands for "Laboratorio Externo", or "External Lab") periodically analyses the refineries effluents in all of its discharge points and searches for a wide range of polluting substances.
+  9. Greenhouse Effect Gases (GEI, tab 10). A follow up on greenhouse effect emissions through the years.
+  10. Asbestos (tab 11). The partial results of a study on the presence of asbestos in different facilities. The refinery is nearly a hundred years old, so it should be no surprise that asbestos is quite common in many equipments. A third party has been contracted to trace asbestos in the whole complex, and this tab helps determine where the situation is more serious in this regard. This study will later be used to plan removal and replacement for inocuous materials.
